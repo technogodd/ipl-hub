@@ -1,0 +1,249 @@
+/* ================= BODY ================= */
+
+            html {
+                min-height: 100%;
+                scroll-behavior: smooth;
+            }
+
+            body {
+                margin: 0;
+                min-height: 100vh;
+                background: #0A1F44;
+                background-attachment: fixed;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Cinzel', serif;
+                text-align: center;
+            }
+
+            p, li {
+                text-align: center;
+            }
+
+            ul {
+            list-style: none;
+            padding-left: 0; 
+            margin-left: 0;
+            }
+
+            .temple-headings {
+                font-family: 'Lora', serif;
+                font-size: 28px;
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            .temple-headings p {
+                font-family: 'PT Serif', serif;
+                font-weight: bold;
+                font-size: 20px;
+                font-style: normal;
+                padding-inline: 20px;
+                padding-block: 0;
+            }
+			
+            a {
+                color: inherit;
+            }
+
+/* ================= IMAGES ================= */
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+                
+            .img-desc {
+                font-family: 'Lora', sans-serif;
+                font-size: 20px;
+                text-align: center;
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            .img-pair {
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                gap: 24px;
+                margin: 32px auto;
+                max-width: 1200px;
+            }
+
+            .img-pair img {
+                max-width: 48%;
+                height: auto;
+                display: block;
+            }
+
+            .h-img {
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                gap: 24px;
+                margin: 32px auto;
+                max-width: 1200px;
+            }
+
+            .h-img img {
+            width: 75%;
+            height: auto;
+            object-fit: contain;
+            }
+
+            .v-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+            margin: 32px auto;
+            }
+
+            .v-img img {
+            height: 700px;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+            }
+
+/* ================= HEADER ================= */
+
+            .site-header {
+                background-color: #1E90FF;
+                margin: 20px;
+                border-radius: 16px;
+                box-shadow: 0 10px 25px rgba(214, 170, 28, 0.75);
+                margin-bottom: 40px;
+            }
+
+            .header-inner {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+                align-items: center;
+                padding: 0 24px;
+            }
+
+            .header-text {
+                text-align: center;
+                justify-self: center;
+                max-width: 700px;
+            }
+
+            .header-spacer {
+                width: 48px;
+            }
+
+            .logo-link {
+                display: inline-block;
+                text-decoration: none;
+                justify-self: start;
+            }
+
+            .logo-img {
+                height: 150px;
+                width: auto;
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .logo-link:hover,
+            .logo-link:focus,
+            .logo-link:active {
+                text-decoration: none;
+                outline: none;
+            }
+
+            .header-text h1 {
+                margin: 0;
+                font-family: 'Cinzel', serif;
+                color: #ffffff;
+                font-size: 40px;	
+            }
+
+            .header-text p {
+                margin: 4px 0 0;
+                font-family: 'Cinzel', serif;
+                color: #ffffff;
+                font-size: 32px;
+            }
+
+            /* ================= TABLE ================= */
+
+            .main-table {
+                width: 90%;
+                border-collapse: collapse;
+                margin: auto;
+                border-radius: 30px;
+                overflow: hidden;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 1);
+                background-color: #e5e5e5;
+                margin-top: 40px;
+                margin-bottom: 50px;
+            }
+                
+            .main-table th, .main-table td {
+                border: none;
+                border-bottom: 1.2px solid #676767;
+                padding: 10px;
+                text-align: center;
+                font-family: 'Bitter';
+            }
+
+            .main-table th {
+                border-bottom: 2.5px solid #676767;
+                background-color: #ff7722;
+                color: #3d3d3d;
+                font-size: 18px;
+            }
+
+            .main-table td {
+                color: #676767;
+            }
+
+            .main-table td.sl-no {
+                color: #1F2933;
+            }
+
+            .main-table td.temple-name {
+                font-family: 'Samarkan';
+                font-size: 24px;
+                margin-bottom: 2px;
+            }
+
+            /* ================= FOOTER ================= */
+
+            .site-footer {
+                background-color: #1E90FF;
+                margin: 20px;
+                border-radius: 16px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.75);
+                margin-top: 40px;
+            }
+
+            .footer-text {
+                text-align: center;
+                justify-self: center;
+            }
+
+            .footer-spacer {
+                width: 48px;
+            }
+
+            .footer-text h1 {
+                margin: 0;
+                font-family: 'Cinzel', serif;
+                color: #ffffff;
+                font-size: 40px;	
+            }
+
+            .footer-text p {
+                margin: 4px 0 0;
+                font-family: 'Cinzel', serif;
+                color: #ffffff;
+                font-size: 20px;
+                max-width: 1400px;
+                margin-bottom: 40px;
+                font-weight: bold;
+            }
