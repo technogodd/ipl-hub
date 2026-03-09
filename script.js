@@ -45,58 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    /* =====================================
-       SHLOKA PLAYBACK ON FIRST SCROLL
-       ===================================== */
 
-    const shlokaSrc = document.body.getAttribute("data-shloka");
-    if (!shlokaSrc) return;
-
-    const shlokaAudio = new Audio(shlokaSrc);
-    shlokaAudio.volume = 0.4;
-    shlokaAudio.preload = "auto";
-
-    let hasPlayed = false;
-
-    const playOnFirstScroll = () => {
-        if (hasPlayed) return;
-
-        shlokaAudio.play().catch(() => {});
-        hasPlayed = true;
-
-        window.removeEventListener("scroll", playOnFirstScroll);
-        window.removeEventListener("touchmove", playOnFirstScroll);
-    };
-
-    // Desktop & mobile scroll
-    window.addEventListener("scroll", playOnFirstScroll, { once: true });
-    window.addEventListener("touchmove", playOnFirstScroll, { once: true });
-
-
-    /* =====================================
-       TAB SWITCH BEHAVIOR
-       ===================================== */
-
-    document.addEventListener("visibilitychange", () => {
-        if (document.hidden) {
-            // Pause ONLY (do NOT reset)
-            shlokaAudio.pause();
-        } else {
-            // Resume automatically if already played
-            if (hasPlayed) {
-                shlokaAudio.play().catch(() => {});
-            }
-        }
-    });
-
-
-    /* =====================================
-       STOP AUDIO ON PAGE LEAVE / REFRESH
-       ===================================== */
-
-    window.addEventListener("beforeunload", () => {
-        shlokaAudio.pause();
-        shlokaAudio.currentTime = 0;
-    });
 
 });
