@@ -175,21 +175,21 @@
                 
             .main-table th, .main-table td {
                 border: none;
-                border-bottom: 1.2px solid #676767;
+                border-bottom: 3px solid #3d3d3d;
                 padding: 10px;
                 text-align: center;
                 font-family: 'Bitter';
             }
 
             .main-table th {
-                border-bottom: 2.5px solid #676767;
+                border-bottom: 5px solid #676767;
                 background-color: #1E90FF;
-                color: #3d3d3d;
+                color: #ffffff;
                 font-size: 18px;
             }
 
             .main-table td {
-                color: #676767;
+                color: #ffffff;
             }
 
             .main-table td.sl-no {
@@ -216,7 +216,6 @@
 
             .main-table tbody tr:hover {
                 transform: scale(5);
-                background-color: #a0a0a0;
                 box-shadow: 0 12px 35px rgba(0, 0, 0, 3);
                 z-index: 10;
             }
@@ -238,70 +237,65 @@
 
            /* ================= TEAM SETTINGS ================= */
 
-           .csk {
-                color: #F9CD05;
+           .main-table tr.csk {
+                background-color: #F9CD05;
             }
 
-            .mi {
-                color: #004BA0;
+            .main-table tr.mi {
+                background-color: #004BA0;
             }
 
-            .kkr {
-                color: #3A225D;
+            .main-table tr.kkr {
+                background-color: #3A225D;
             }
 
-            .rcb {
-                color: #EC1C24;
+            .main-table tr.rcb {
+                background-color: #EC1C24;
             }
 
-            .gt {
-                color: #1C2C5B;
+            .main-table tr.gt {
+                background-color: #1C2C5B;
             }
 
-            .srh {
-                color: #FF6A00;
-            }
-            
-            .rr {
-                color: #EA1A85;
+            .main-table tr.srh {
+                background-color: #FF6A00;
             }
 
-            .decc {
-                color: #1C4E9B;
+            .main-table tr.rr {
+                background-color: #EA1A85;
             }
 
-            .pbks {
-                color: #ED1C24;
+            .main-table tr.decc {
+                background-color: #1C4E9B;
             }
 
-            .lsg {
-                color: #F26C2A;
+            .main-table tr.pbks {
+                background-color: #ED1C24;
             }
 
-            .delc {
-                color: #17489E;
+            .main-table tr.lsg {
+                background-color: #F26C2A;
             }
 
-            .ktk {
-                color: #6A1B9A;
+            .main-table tr.delc {
+                background-color: #17489E;
             }
 
-            .pwi {
-                color: #005BAC;
+            .main-table tr.ktk {
+                background-color: #6A1B9A;
             }
 
-            .rps {
-                color: #5B2C83;
+            .main-table tr.pwi {
+                background-color: #005BAC;
             }
 
-            .gl {
-                color: #F26522;
+            .main-table tr.rps {
+                background-color: #5B2C83;
             }
 
-            .csk {
-                color: #F9CD05;
+            .main-table tr.gl {
+                background-color: #F26522;
             }
-
 
             /* ================= FOOTER ================= */
 
