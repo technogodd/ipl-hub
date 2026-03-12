@@ -192,16 +192,6 @@
                 color: #ffffff;
             }
 
-            .main-table td.sl-no {
-                color: #1F2933;
-            }
-
-            .main-table td.temple-name {
-                font-family: 'Samarkan';
-                font-size: 24px;
-                margin-bottom: 2px;
-            }
-
             .main-table tbody tr {
                 opacity: 0;
                 transform: translateY(20px);
@@ -215,8 +205,8 @@
             }
 
             .main-table tbody tr:hover {
-                transform: scale(5);
-                box-shadow: 0 12px 35px rgba(0, 0, 0, 3);
+                transform: scale(1.5);
+                box-shadow: 0 12px 35px rgba(0, 0, 0, 1);
                 z-index: 10;
             }
 
