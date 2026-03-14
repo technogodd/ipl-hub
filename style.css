@@ -272,20 +272,20 @@
                 background-color: #17489E;
             }
 
-            .main-table tr.ktk {
-                background-color: #6A1B9A;
-            }
-
-            .main-table tr.pwi {
-                background-color: #005BAC;
-            }
-
             .main-table tr.rps {
                 background-color: #5B2C83;
             }
 
             .main-table tr.gl {
                 background-color: #F26522;
+            }
+
+            .main-table tr.pwi {
+                background-color: #005BAC;
+            }
+            
+            .main-table tr.ktk {
+                background-color: #6A1B9A;
             }
 
             /* ================= FOOTER ================= */
